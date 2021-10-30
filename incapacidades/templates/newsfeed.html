@@ -1,7 +1,7 @@
 {% extends 'layout.html' %}
 {% block content %}
 <div id="main" class="container-fluid d-flex">
-
+<h3 >{{ request.user.first_name }}</h3>
     <div class="content">
 
         <div id="inputTweetArea" class="tweet-wrap">
@@ -11,7 +11,7 @@
                 </div>
 
                 <!-- Formulario -->
-                <form class="col pr-0">
+                <form class="col pr-1">
                     <input class="form-control w-100" placeholder="usuario"> </input>
                     <input class="form-control w-100" placeholder="contrasena"> </input>
                     <div class="container d-flex" style="padding: 1rem 0 0 0;">
