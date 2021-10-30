@@ -1,36 +1,42 @@
-{% extends 'layout.html' %}
-{% block content %}
-<div id="main" class="container-fluid d-flex">
-<h3 >{{ request.user.first_name }}</h3>
-    <div class="content">
 
-        <div id="inputTweetArea" class="tweet-wrap">
-            <div class="d-flex">
-                <div class="col-xs">
+  <!DOCTYPE html>
+<html lang="es">
 
-                </div>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RID</title>
+    <link rel="stylesheet" href="static/css/estilosDomina.css">
+</head>
 
-                <!-- Formulario -->
-                <form class="col pr-1">
-                    <input class="form-control w-100" placeholder="usuario"> </input>
-                    <input class="form-control w-100" placeholder="contrasena"> </input>
-                    <div class="container d-flex" style="padding: 1rem 0 0 0;">
-                        <div id="leftBtn">
+<body>
+    <header>
+        <h1>!Bienvenido¡</h1>
+    </header>
+    <nav>
+        <a href="#">Ingresar</a>
+        <a href="#">Registrarse</a>
+    </nav>
 
-                                <button class="btn rounded-pill" style="width: 100%;">Ingresar</button>
+    <section>
+        <img src="/static/img/incapacidades-dom.JPG">
+        <aside>
+            <p>Ir a la página de Domina</p>
+            <h2>
+                <a href="https://www.domina.com.co">Domina Entrega Total</a>
+            </h2>
+        </aside>
 
-                        </div>
+    </section>
 
-                        <div id="rightBtn">
-                            <button class="btn rounded-pill" style="width: 100%;">Registrarse</button>
-                        </div>
-                    </div>
-                </form>
-                <!-- Formulario -->
 
-            </div>
-            <div class="d-flex justify-content-center mt-2">
-            </div>
-        </div>
+    <footer>
 
-{% endblock content %}
+
+
+    </footer>
+
+</body>
+
+</html>
